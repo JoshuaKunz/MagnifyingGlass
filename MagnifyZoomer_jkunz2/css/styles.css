@@ -1,0 +1,29 @@
+/* Reset margin and padding */
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+.magnify {
+	width: 37.5rem;   /*600px*/
+	margin: 3.125rem auto;
+	position: relative;  /* positioning parent */
+    /*border: 1px solid red;*/
+}
+
+.large {
+	width: 12.375rem;
+	height: 12.375rem;
+	box-shadow: 0 0 0 .625rem rgba(80, 80, 80, 0.5),
+                0 0 .438rem .438rem rgba(20, 20, 20, 0.8),
+                inset 0 0 2.5rem .125rem rgba(0, 0, 0, 0.8);
+	
+	border-radius: 30%;
+	
+	position: absolute;
+    
+    background: url('../images/Galgenberg_orig.jpg') no-repeat;
+    
+    display: none;
+
+}
